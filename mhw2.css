@@ -1,0 +1,879 @@
+body{
+    margin: 0;
+    font-family: helvetica;
+}
+
+span{
+    font-weight: bold;
+    background-color: black;
+    font-size: 24px;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: helvetica;
+    background-color: black;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 120px;
+    align-items: center
+}
+
+
+
+#main-navigation a{
+    text-decoration: none;
+    color: white;
+    font-size:60%;
+}
+
+
+
+
+#main-navigation{
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:10%;
+    z-index: 1000;
+}
+
+
+
+#second-navigation{
+    margin-top:50px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+
+#second-navigation a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size:60%;
+}
+
+#second-navigation img{
+    display:flex;
+    justify-content:flex-start;
+    height:60px;
+}
+
+
+.accesso{
+    display:flex;
+    justify-content: flex-end;
+    margin-left:260px;
+}
+
+.accedi-registrati{
+    font-size:200px;
+}
+
+
+.logo-accesso{
+    height:50px;
+    background-color: gray;
+    height:50px;
+    width:50px;
+}
+
+
+
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px; 
+    cursor:pointer;
+    margin-left:20px;
+}
+
+.menu-icon div{
+    width:100%;
+    height: 10px;
+    background-color: white;
+    margin: 3px;
+}
+
+
+
+
+
+.main-news{
+    border:10px solid gray;
+    margin:auto;
+    height:600px;
+    width:80%;
+}
+
+
+header{
+    background-image: url(https://resources.motogp.pulselive.com/photo-resources/2024/03/23/991adb13-9465-4389-a63d-b2aa8aa76c87/_LGZ2154.jpg?width=3840&height=2160);
+    background-size: cover;
+    height:100%;
+    position:relative;
+    z-index:-2;
+}
+
+.overlay-main-news{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    top:0;
+    left:0;
+}
+
+h1{
+    margin:0px;
+    color:white;
+    font-family: 'Homenaje', helvetica;
+    font-size:4em;
+    padding-top: 200px;
+    text-align: center;
+}
+
+
+
+.slider-container{
+    height:200px;
+    width:100%;
+    background-color: white;
+}
+
+.slider-element{
+    width:25%;
+    height:auto;
+    background-color: darkred;
+    padding:10px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    border-radius:20px;
+}
+
+.slider-element a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Homenaje',Helvetica;
+    font-size:22px;
+}
+
+
+
+
+
+
+
+
+.novita-titolo {
+    color:white;
+    font-size:40px;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    font-family: 'Fredoka', Helvetica;
+    padding-top:10px;
+}
+
+
+.novita{
+    height:300px;
+}
+
+.articolo{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    width: 25%;
+}
+
+.articolo a{
+    color: white;
+    text-decoration:none;
+}
+
+
+.articolo img{
+    height:110%;
+    width: 95%;
+}
+.articolo .testo{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+#pubblicita{
+    margin: 80px;
+    background-color: black;
+    width:80%;
+}
+
+
+#pubblicita img{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+.promo-widget-box {
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center; /* Centrare verticalmente il contenuto */
+}
+
+
+.promo-widget-container{
+    width: 96%;
+    display:flex;
+    height: 90%;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+}
+
+.promo-widget-container div{
+    height:400px;  
+}
+
+
+
+.promo-widget-foto{
+    width: 100%;
+    display:inline-block;
+    background-color: #f0f0f0;
+}
+
+
+.promo-widget-container img{
+    width:96%;
+    height:100%;
+    margin-left:10px;
+}
+
+
+.promo-widget-text {
+    width: 60%;
+    color:black;
+    background-color: #f0f0f0;
+}
+
+
+.promo-widget-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.promo-widget-text h2{
+    font-family: 'Homenaje', helvetica;
+}
+
+
+.promo-widget-text h3{
+    font-weight: normal;
+}
+
+
+
+.promo-widget-text a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    border: 1px solid gray;
+    border-radius:10px;
+    padding:5px;
+    cursor:pointer;
+}
+
+
+
+
+
+.titolo{
+    color: white;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
+
+.gare-prossime-titolo {
+    color:white;
+    font-size:40px;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    font-family: 'Fredoka', Helvetica;
+    padding-top:10px;
+}
+
+
+
+.gare_prossime{
+    height:400px;
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.evento img{
+    height:80%;
+    width: 95%
+}
+
+.evento a{
+    color: white;
+    text-decoration:none;
+}
+
+
+.evento{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    width: 25%;
+    margin-top:-100px;
+}
+
+
+.evento .testo{
+    color:white;
+}
+
+
+
+
+
+.fantasy-widget-box {
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center; 
+}
+
+
+.fantasy-widget-container{
+    width: 96%;
+    display:flex;
+    height: 90%;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+}
+
+
+.fantasy-widget-container div{
+    height:400px;  
+    }
+    .fantasy-widget-foto{
+    width: 100%;
+    display:inline-block;
+    background-color: #f0f0f0;
+}
+
+
+
+.fantasy-widget-container img{
+    width:96%;
+    height:100%;
+    margin-left:10px;
+}
+
+
+.fantasy-widget-text {
+    width: 60%;
+    color:black;
+    background-color: #f0f0f0;
+}
+
+
+.fantasy-widget-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.fantasy-widget-text h2{
+    font-family: 'Homenaje', helvetica;
+    
+}
+
+.fantasy-widget-text h3{
+    font-weight: normal;
+}
+
+
+
+.fantasy-widget-text a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    border: 1px solid gray;
+    border-radius:10px;
+    padding:5px;
+}
+
+
+
+
+.hidden {
+    display:none;
+}
+
+
+
+
+
+
+
+
+.video-title {
+    color:black;
+    font-size:40px;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    font-family: 'Fredoka', Helvetica;
+    padding-top:10px;
+    background-color: #f0f0f0;
+}
+
+
+.video-container{
+    height:300px;
+    background-color: #f0f0f0;
+}
+
+.video-element{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    width: 25%;
+    background-color: #f0f0f0;
+}
+
+.video-element a{
+    color: black;
+    text-decoration:none;
+}
+
+
+.video-element img{
+    height:110%;
+    width: 95%;
+}
+
+
+.video-element .testo{
+    margin-top:10px;
+}
+
+
+
+
+
+
+.single-promo-box {
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center; 
+}
+
+.single-promo-container{
+    width: 96%;
+    display:flex;
+    height: 90%;
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+}
+
+.single-promo-container div{
+    height:400px;  
+}
+
+
+.single-promo-foto{
+    width: 100%;
+    display:inline-block;
+    background-color: #f0f0f0;
+}
+
+
+.single-promo-container img{
+    width:96%;
+    height:100%;
+    margin-left:0;
+}
+
+
+.single-promo-text {
+    width: 50%;
+    color:black;
+    background-color: #f0f0f0;
+}
+
+
+.single-promo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.single-promo-text h2{
+    font-family: 'Homenaje', helvetica;
+}
+
+.single-promo-text h3{
+    font-weight: normal;
+}
+
+
+
+.single-promo-text a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    border: 1px solid gray;
+    border-radius:10px;
+    padding:5px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.tickets-titolo {
+    color:white;
+    font-size:40px;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    font-family: 'Fredoka', Helvetica;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
+
+
+.tickets-container{
+    height:300px;
+}
+
+.tickets-element{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    width: 25%;
+}
+
+.tickets-element a{
+    color: white;
+    text-decoration:none;
+    background-color: darkred;
+    padding:10px;
+    border-radius:10px;
+}
+
+
+.tickets-element img{
+    height:110%;
+    width: 95%;
+}
+
+
+
+
+.competitors-titolo {
+    color:white;
+    font-size:40px;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: -40px;
+    font-family: 'Fredoka', Helvetica;
+    padding-top:10px;
+    background-color: darkred;
+    margin-top:10px;
+}
+
+
+
+.competitors{
+    height:400px;
+    text-align: center;
+    background-color: darkred;
+}
+
+.pilota img{
+    height:100%;
+    width:100%;
+    border-radius: 20px;
+}
+
+
+.pilota a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.pilota{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+    width: 20%;
+    height:80%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.logo-motogp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    height:100px;
+    width:100%;
+    
+}
+
+
+.logo-motogp img{
+    height:80px;
+    width:80px;
+}
+
+
+
+
+
+.partnership,.sponsor{
+    background-color: white;
+}
+
+
+.sponsor img{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:36px;
+}
+
+
+
+
+footer{
+    height:200px;
+}
+
+.footer-title{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+.footer-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-container,.footer-section,.footer-title{
+    background-color: white;
+}
+
+
+.footer-section a{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+
+.social,.social-container,.social-element{
+    background-color: white;
+}
+
+.social-element img{
+    height:50px;
+}
+
+.app-container{
+    background-color: white;
+    height:100px;
+}
+
+.app-element img{
+    height:50px;
+}
+
+.app-element{
+    background-color: white;
+}
+
+.app-container .title{
+    font-weight: bold;
+    background-color: white;
+    color:black;
+    font-family:'Homenaje', helvetica;
+    font-size:40px;
+}
+
+
+
+
+.copyright{
+    display:inline;
+    height: 20px;
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+
+
+
+
+@media(max-width:500px){
+    body{
+        width:100%;
+    }
+
+    .slider-container{
+        width:100%;
+    }
+
+    .novita,.novita-titolo{
+        width:100%;
+    }
+
+    #pubblicita{
+        width:100%;
+    }
+
+    .promo-widget-box{
+        width:100%;
+    }
+
+    .gare-prossime,.gare-prossime-titolo{
+        width:100%;
+    }
+
+    .fantasy-widget-box{
+        width:100%;
+    }
+
+    .video-container,.video-title{
+        width:100%;
+    }
+
+    .single-promo-box{
+        width:100%;
+    }
+
+    .tickets-container,.tickets-titolo{
+        width:100%;
+    }
+
+    .competitors,.competitors-titolo{
+        width:100%;
+    }
+
+    .logo-motogp{
+        width:100%;
+    }
+
+    .partnership{
+        width:100%;
+    }
+
+    .footer-container{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*classi per js per zoomare quando passi sopra*/
+.tickets-container{
+    position:relative;
+}
+
+.tickets-element img{
+    width:200px;
+    transition: trasform 0.5s;
+}
+
+
+.tickets-element img:hover{
+    transform: scale(1.5);
+}
+
